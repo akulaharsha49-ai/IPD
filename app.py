@@ -334,11 +334,17 @@ def cancel_appointment():
 def Discharge():
     st.markdown("""
 ### 🏠 Discharge Patient Instructions
+
 🔹 Go to the **Home Page**  
 🔹 View the list of all patients  
-🔹 Click on **⋮ (three vertical dots)** at the end of the row  
-🔹 Select **Discharge**  
-🔹 Submit the form to discharge the patient  
+🔹 Click on **⋮ (three vertical dots)** at the end of the patient row  
+🔹 Select **Discharge Summary**                  
+&nbsp;&nbsp;&nbsp;&nbsp;• Choose the **date and time**  
+&nbsp;&nbsp;&nbsp;&nbsp;• Select a **template**  
+&nbsp;&nbsp;&nbsp;&nbsp;• Fill in the form with accurate details  
+🔹 Click **Submit** to discharge the patient  
+🔹 Then Discharge Summary will be generated 
+                
 """)
     back_to_main()
 
