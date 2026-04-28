@@ -118,6 +118,7 @@ def main_menu():
             ("🧾 Prescription", "Prescription"),
             ("📝 Assign Doctor", "assign_doctor"),
             ("🔄 Transfer Patient", "Transfer"),
+            ("🏠 Discharge Patient", "Discharge"),
             
         ]
 
